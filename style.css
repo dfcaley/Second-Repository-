@@ -12,3 +12,18 @@ font-size: large}
 .decaf {color: green;}
 
 #fairtrade {font-weight: bold;}
+div{
+    width: 50%;
+    float: left;
+}
+
+#specials a {
+    font-weight: bold;
+}
+
+@media only screen and (max-device-width: 736px) and (orientation: portrait) {
+    h1 {
+        font-size: 60px;
+        color: black;
+    }
+}
