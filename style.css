@@ -1,0 +1,14 @@
+h1 {
+    color: rgb(91, 184, 255);
+    font-family: "Curlz MT";
+    font-style: italic;
+font-weight: bold;
+font-size: xx-large;
+background-color: brown}
+
+p {font-family: "American Typewriter";
+font-size: large}
+
+.decaf {color: green;}
+
+#fairtrade {font-weight: bold;}
