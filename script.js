@@ -28,6 +28,11 @@ var greet = function (event_details) {
     container.innerHTML = "<p>" + greeting_message + "</p>";
 
     event_details.preventDefault();
+
+    var tagline = document.getElementById("tagline");
+    var blue = "rgb(91, 184, 255)";
+    tagline.style.color = blue;
+
 };
 
 //     var greeting = 'Thanks ';
