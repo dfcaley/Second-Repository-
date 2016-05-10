@@ -32,7 +32,7 @@
 //     var tagline = document.getElementById("tagline");
 //     var blue = "rgb(91, 184, 255)";
 //     tagline.style.color = blue;
-//
+
 // };
 
 //     var greeting = 'Thanks ';
@@ -45,8 +45,8 @@
 
 
 //
-//
+// //
 // var form = document.getElementById ("signup-form");
 // form.addEventListener("submit", greet);
-//
+
 

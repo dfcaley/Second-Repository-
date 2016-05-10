@@ -23,9 +23,9 @@ app.post('/signup', function(request, response) {
     var database = csv.createCsvFileWriter("customerDetails", {flags: "a"});
     var data = [identity, address];
     database.writeRecord(data);
-    
+   
     database.writeStream.end();
-    
+
     response.send(identity);
 });
 
