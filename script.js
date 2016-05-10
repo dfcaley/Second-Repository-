@@ -19,13 +19,26 @@
 // };
 
 var greet = function (event_details) {
-    var greeting = 'Thanks ';
+    var greeting = "Thank you, ";
     var name = document.getElementById("name").value;
     var email = document.getElementById("email").value;
-    var greeting_message = greeting + name + ' You have been signed up as ' + email;
-    alert(greeting_message);
+    var greeting_message = greeting + name + ". " + email + " has now been signed up to recieve Central Perk updates and offers.";
+
+    var container = document.getElementById("signup-form-container");
+    container.innerHTML = "<p>" + greeting_message + "</p>";
+
     event_details.preventDefault();
 };
+
+//     var greeting = 'Thanks ';
+//     var name = document.getElementById("name").value;
+//     var email = document.getElementById("email").value;
+//     var greeting_message = greeting + name + ' You have been signed up as ' + email;
+//     alert(greeting_message);
+//     event_details.preventDefault();
+// };
+
+
 
 
 var form = document.getElementById ("signup-form");
