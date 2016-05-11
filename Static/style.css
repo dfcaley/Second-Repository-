@@ -2,23 +2,54 @@ h1 {
     color: silver;
     font-family: Cambria
     font-style: italic;
-font-weight: bold;
-font-size: xx-large;
-background-color: brown}
+    font-weight: bold;
+    font-size: xx-large;
+    background-color: brown
+}
 
-p {font-family: "American Typewriter";
-font-size: large}
+p {
+    font-family: "American Typewriter";
+    font-size: large
+}
 
-.decaf {color: green;}
+.decaf {
+    color: green;
+}
 
-#fairtrade {font-weight: bold;}
-
-
-#specials a {
+#fairtrade {
     font-weight: bold;
 }
-h3 {font-weight: bold;}
 
-.form-group {margin-right: 30px;}
+#specials {
+    font-weight: normal;
+    border: dotted;
+}
 
-body {background-color: palegoldenrod}
+#milkshakes {font-weight: normal;
+border: dotted}
+
+h3 {
+    font-weight: bold;
+}
+
+.form-group {
+    margin-right: 30px;
+}
+
+body {
+    background-color: palegoldenrod
+}
+
+li {
+    font-style: italic;
+    font-family: Cambria
+}
+
+h4 {font-size: xx-large;
+font-weight: 900;
+font-family: Cambria;
+background-color: darkorange}
+
+.standoutwords {font-style: italic}
+
+.tandc {font-size: xx-small}
