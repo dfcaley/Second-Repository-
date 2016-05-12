@@ -4,7 +4,8 @@ h1 {
     font-style: italic;
     font-weight: bold;
     font-size: xx-large;
-    background-color: brown
+    background-color: brown;
+
 }
 
 p {
@@ -37,7 +38,7 @@ h3 {
 }
 
 body {
-    background-color: palegoldenrod
+    background-color: antiquewhite;
 }
 
 li {
@@ -45,10 +46,25 @@ li {
     font-family: Cambria
 }
 
+
 h4 {font-size: xx-large;
 font-weight: 900;
-font-family: Cambria;
-background-color: darkorange}
+font-family: "American Typewriter";
+background-color: burlywood;
+    text-align: center;
+    text-shadow: 1px 1px 1px gray ;
+    color: maroon;
+    border: dashed;
+}
+
+h5 {color: #D0F8FF;
+    text-shadow: 0 0 5px #A5F1FF, 0 0 10px #A5F1FF,
+    0 0 20px #A5F1FF, 0 0 30px #A5F1FF,
+    0 0 40px #A5F1FF;
+    font-size: xx-large;
+    text-align: center;
+    font-weight: 900;
+}
 
 .standoutwords {font-style: italic}
 
